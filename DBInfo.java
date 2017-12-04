@@ -18,7 +18,7 @@ public class DBInfo {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");  //Chargement du pilote
 			String url = "jdbc:mysql://localhost/HamdiMiled";
-			con = DriverManager.getConnection(url, "hamdi", "hamdi");
+			con = DriverManager.getConnection(url, "root", "");
 
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
