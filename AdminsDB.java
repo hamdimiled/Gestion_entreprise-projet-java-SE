@@ -22,7 +22,7 @@ public class AdminsDB {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://localhost/HamdiMiled";
-			con = DriverManager.getConnection(url, "hamdi", "hamdi");
+			con = DriverManager.getConnection(url, "root", "");
 			//System.out.println("connected"); //savoir s'il y a une connection
 
 		} catch (ClassNotFoundException | SQLException e) {
